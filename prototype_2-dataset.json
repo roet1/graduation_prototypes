@@ -1,0 +1,351 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+
+Prototype_2-dataset
+
+This prototype provides an overview of the COCO format for packaging image segmentation. 
+
+Annotations of prototype_2-b-2 can be saved within this JSON file in the annotations list.
+
+According to Cocodataset (2020), the JSON file consists of: info, licenses, images, annotations and categories (n=57).
+
+
+Reference
+
+
+Cocodataset. (2020). COCO - Common Objects in Context. https://cocodataset.org/#format-results
+
+"""
+
+{
+    "info": {
+        "description": "Smart meter packaging dataset",
+        "url": "",
+        "version": "1.0",
+        "year": 2021,
+        "contributor": "Ruth Stam",
+        "date_created": "2017/05/23"
+    },
+    "licenses": [
+        {
+            "url": "http://creativecommons.org/licenses/by/2.0/",
+            "id": 1,
+            "name": "Attribution License"
+        }
+    ],
+    "images": [
+        {
+            "id": ,
+            "license": ,
+            "coco_url": " ",
+            "flickr_url": " ",
+            "width": ,
+            "height": ,
+            "file_name": " ",
+            "date_captured": " "
+        },
+    ],
+    "annotations": [
+        {
+            "segmentation": [[]],
+            "iscrowd": ,
+            "image_id": ,
+            "id": ,
+            "category_id": ,
+            "area": ,
+            "bbox": 
+        },
+    ],
+    "categories": [
+        {
+            "supercategory": "Bak",
+            "id": 1,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Bak",
+            "id": 2,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Banderol",
+            "id": 3,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Beker",
+            "id": 4,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Beker",
+            "id": 5,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Blik",
+            "id": 6,
+            "name": "Metaal"
+        },
+        {
+            "supercategory": "Blister",
+            "id": 7,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Blister",
+            "id": 8,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Bus",
+            "id": 9,
+            "name": "Metaal"
+        },
+        {
+            "supercategory": "Bus",
+            "id": 10,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Bus",
+            "id": 11,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Clip",
+            "id": 12,
+            "name": "Metaal"
+        },
+        {
+            "supercategory": "Deksel",
+            "id": 13,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Deksel",
+            "id": 14,
+            "name": "Metaal"
+        },
+        {
+            "supercategory": "Doos",
+            "id": 15,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Doos",
+            "id": 16,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Doos",
+            "id": 17,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Dop",
+            "id": 18,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Dop",
+            "id": 19,
+            "name": "Metaal"
+        },
+        {
+            "supercategory": "Drankenkarton",
+            "id": 20,
+            "name": "Drankenkartons"
+        },
+        {
+            "supercategory": "Drankenkarton",
+            "id": 21,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Envelop",
+            "id": 22,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Envelop",
+            "id": 23,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Fles",
+            "id": 24,
+            "name": "Glas"
+        },
+        {
+            "supercategory": "Fles",
+            "id": 25,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Folder",
+            "id": 26,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Folie",
+            "id": 27,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Folie",
+            "id": 28,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Huls",
+            "id": 29,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Inlay",
+            "id": 30,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Kaart",
+            "id": 31,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Kaart",
+            "id": 32,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Kuip",
+            "id": 33,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Label",
+            "id": 34,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Label",
+            "id": 35,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Opvulmateriaal",
+            "id": 36,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Opvulmateriaal",
+            "id": 37,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Pak",
+            "id": 38,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Pot",
+            "id": 39,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Pot",
+            "id": 40,
+            "name": "Glas"
+        },
+        {
+            "supercategory": "Sachet",
+            "id": 41,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Sachet",
+            "id": 42,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Sachet",
+            "id": 43,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Seal",
+            "id": 44,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Tas",
+            "id": 45,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Tas",
+            "id": 46,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Tray",
+            "id": 47,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Tray",
+            "id": 48,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Tray",
+            "id": 49,
+            "name": "Gecombineerd"
+        },
+        {
+            "supercategory": "Tube",
+            "id": 50,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Tube",
+            "id": 51,
+            "name": "Metaal"
+        },
+        {
+            "supercategory": "Verzendzak",
+            "id": 52,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Wikkel",
+            "id": 53,
+            "name": "Plastic"
+        },
+        {
+            "supercategory": "Wikkel",
+            "id": 54,
+            "name": "Papier en karton"
+        },
+        {
+            "supercategory": "Wikkel",
+            "id": 55,
+            "name": "Gecombineerd"
+        },
+        
+        {
+            "supercategory": "Zak",
+            "id": 56,
+            "name": ""
+        },
+        
+        {
+            "supercategory": "Zak",
+            "id": 57,
+            "name": "Papier en karton"
+        },
+        
+        
+    ]
+}
